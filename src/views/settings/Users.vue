@@ -16,7 +16,7 @@
           <thead>
             <tr>
               <th>用户名</th>
-              <th>邮箱</th>
+              <th>所属组织</th>
               <th>角色</th>
               <th>状态</th>
               <th>最后登录</th>
@@ -26,7 +26,7 @@
           <tbody>
             <tr>
               <td>admin</td>
-              <td>admin@skyguard.com</td>
+              <td>总部</td>
               <td><span class="type-chip type-FC100">管理员</span></td>
               <td><span class="status-badge status-online">正常</span></td>
               <td>2026-05-13 14:30</td>
@@ -37,7 +37,7 @@
             </tr>
             <tr>
               <td>operator</td>
-              <td>operator@skyguard.com</td>
+              <td>运维部</td>
               <td><span class="type-chip type-MAVIC_3">操作员</span></td>
               <td><span class="status-badge status-online">正常</span></td>
               <td>2026-05-13 10:15</td>

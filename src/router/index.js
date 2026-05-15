@@ -45,7 +45,13 @@ const routes = [
     path: '/live',
     name: 'Live',
     component: () => import('../views/Live.vue'),
-    meta: { title: '🎥 实时画面', requiresAuth: true }
+    meta: { title: '🎥 实时监控', requiresAuth: true }
+  },
+  {
+    path: '/live/:deviceId/cockpit',
+    name: 'Cockpit',
+    component: () => import('../views/Cockpit.vue'),
+    meta: { title: '🛩 驾驶舱', requiresAuth: true }
   },
   {
     path: '/media',
@@ -76,6 +82,12 @@ const routes = [
     name: 'SettingsUsers',
     component: () => import('../views/settings/Users.vue'),
     meta: { title: '⚙️ 用户管理', requiresAuth: true }
+  },
+  {
+    path: '/settings/organizations',
+    name: 'SettingsOrganizations',
+    component: () => import('../views/settings/Organizations.vue'),
+    meta: { title: '⚙️ 组织管理', requiresAuth: true }
   },
   {
     path: '/settings/logs',

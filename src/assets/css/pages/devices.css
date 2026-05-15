@@ -50,7 +50,7 @@
 .device-type.m4td { background: var(--amber-dim); border-color: rgba(255,184,0,0.2); color: var(--amber); }
 .device-sn { font-family: 'SF Mono', 'Consolas', monospace; color: var(--text-secondary); font-size: 0.85rem; }
 .device-name { font-weight: 500; color: var(--text-primary); }
-.status-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 500; }
+.status-badge { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 20px; font-size: var(--fs-base); font-weight: 600; }
 .status-online { background: var(--green-dim); color: var(--green); border: 1px solid rgba(0,255,136,0.2); }
 .status-online::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--green); animation: pulse-green 2s infinite; }
 .status-offline { background: var(--red-dim); color: var(--red); border: 1px solid rgba(255,51,102,0.2); }

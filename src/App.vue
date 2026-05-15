@@ -85,7 +85,7 @@ export default {
       { path: '/dashboard', label: '数据看板', icon: '🚀' },
       { path: '/missions', label: '任务管理', icon: '📋' },
       { path: '/waylines', label: '航线管理', icon: '🗺️' },
-      { path: '/live', label: '实时画面', icon: '🎥' },
+      { path: '/live', label: '实时监控', icon: '🎥' },
       { path: '/media', label: '媒体中心', icon: '🗂️' },
       { path: '/poles', label: '杆塔台账', icon: '🏗️' },
       { path: '/devices', label: '设备管理', icon: '📡' },
@@ -97,6 +97,7 @@ export default {
           { path: '/settings/platforms', label: '平台接入配置' },
           { path: '/settings/stream', label: '流媒体配置' },
           { path: '/settings/users', label: '用户管理' },
+          { path: '/settings/organizations', label: '组织管理' },
           { path: '/settings/logs', label: '系统日志' },
           { path: '/settings/about', label: '关于' }
         ]

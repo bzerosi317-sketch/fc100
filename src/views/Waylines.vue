@@ -18,6 +18,7 @@
           <thead>
             <tr>
               <th>航线名称</th>
+              <th>所属组织</th>
               <th>适用机型</th>
               <th>航点数量</th>
               <th>航线长度(km)</th>
@@ -27,7 +28,7 @@
           </thead>
           <tbody>
             <tr v-if="loading" class="loading-row">
-              <td colspan="6">
+              <td colspan="7">
                 <div class="loading-inline">
                   <div class="loading-spinner small"></div>
                   <span>加载中...</span>
@@ -35,7 +36,7 @@
               </td>
             </tr>
             <tr v-else-if="waylines.length === 0" class="loading-row">
-              <td colspan="6">
+              <td colspan="7">
                 <div class="empty-state"><p>暂无航线数据</p></div>
               </td>
             </tr>
@@ -44,6 +45,7 @@
                 <span class="wayline-name">{{ wayline.name }}</span>
                 <div class="wayline-desc">{{ wayline.description }}</div>
               </td>
+              <td><span class="org-tag">{{ wayline.org }}</span></td>
               <td><span class="type-chip type-FC100">{{ wayline.deviceType }}</span></td>
               <td>{{ wayline.waypointCount }}</td>
               <td>{{ wayline.totalLength }}</td>

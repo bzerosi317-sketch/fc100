@@ -128,7 +128,7 @@
               </td>
               <td>
                 <span class="status-badge" :class="device.status === 'online' ? 'status-online' : 'status-offline'">
-                  {{ device.status === 'online' ? '🟢 在线' : '🔴 离线' }}
+                  {{ device.status === 'online' ? '在线' : '离线' }}
                 </span>
               </td>
               <td><span class="online-time">{{ device.lastSeen }}</span></td>
