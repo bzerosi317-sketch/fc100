@@ -1,0 +1,6 @@
+.settings-page .page-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
+.setting-form { padding: 20px; }
+.setting-form .form-group { margin-bottom: 16px; }
+.setting-form .form-group label { display: block; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 6px; }
+.setting-form .form-group input, .setting-form .form-group select { width: 100%; padding: 10px; background: var(--bg-input); border: 1px solid var(--border-color); border-radius: var(--radius-sm); color: var(--text-primary); }
+.form-actions { display: flex; gap: 12px; margin-top: 20px; }

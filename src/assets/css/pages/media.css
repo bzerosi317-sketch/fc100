@@ -1,0 +1,8 @@
+.media-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+.media-item { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; cursor: pointer; transition: all 0.2s; }
+.media-item:hover { border-color: var(--border-hover); }
+.media-item.selected { border-color: var(--cyan); box-shadow: 0 0 12px var(--cyan-dim); }
+.media-thumb { height: 120px; background: var(--bg-secondary); display: flex; align-items: center; justify-content: center; font-size: 2rem; }
+.media-info { padding: 10px; }
+.media-info .media-name { font-size: 0.85rem; font-weight: 500; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.media-info .media-meta { font-size: 0.75rem; color: var(--text-muted); display: flex; gap: 8px; }

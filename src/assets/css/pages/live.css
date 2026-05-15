@@ -1,0 +1,11 @@
+.live-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.live-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; cursor: pointer; transition: all 0.2s; }
+.live-card:hover { border-color: var(--border-hover); transform: translateY(-2px); }
+.live-card.online { border-color: var(--green); }
+.live-preview { height: 160px; background: var(--bg-secondary); display: flex; align-items: center; justify-content: center; }
+.preview-placeholder { text-align: center; color: var(--text-muted); }
+.preview-placeholder span { font-size: 2rem; display: block; margin-bottom: 8px; }
+.live-info { padding: 12px; }
+.live-info .device-name { font-weight: 600; margin-bottom: 6px; }
+.live-info .device-meta { display: flex; align-items: center; gap: 8px; font-size: 0.8rem; }
+.live-info .device-type { color: var(--text-muted); }
